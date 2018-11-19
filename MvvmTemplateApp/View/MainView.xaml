@@ -7,8 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel>
-        <Label FontSize="50">MainView</Label>
-        <Label FontSize="50" Content="{Binding Text}"/>
-        <Button FontSize="50" Command="{Binding ToSecondViewCommand}">ToSecondView</Button>
+        <Label FontSize="50" Foreground="Red">MainView</Label>
+        <Label FontSize="50" Content="{Binding Text}"  Foreground="Red"/>
+        <Button FontSize="50" Foreground="Red" Command="{Binding ToSecondViewCommand}">ToSecondView</Button>
     </StackPanel>
 </UserControl>
