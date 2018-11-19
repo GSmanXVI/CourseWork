@@ -10,7 +10,7 @@ namespace ContactListApp.Services
     {
         public string Test()
         {
-            return "Helo from test service one!";
+            return "Hello from test service one!";
         }
     }
 }
